@@ -452,7 +452,6 @@ with stylable_container(
         "What kind of professional are you looking for?",
         placeholder="e.g., marketing consultant, electrician, web designer...",
         key="search_input",
-        help="Enter your search in natural language - be as specific or general as you like!"
     )
 
 # Load model and data
