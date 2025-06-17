@@ -97,11 +97,16 @@ st.markdown("""
     }
 
     @media (prefers-color-scheme: dark) {
-        .match-container, .search-box {
-            background-color: #1e1e1e !important;
-            color: #e0e0e0;
-            border-left: 4px solid #76b7b2;
-        }
+    .match-container, .search-box {
+        background-color: #1e1e1e !important;
+        color: #e0e0e0 !important;
+        border-left: 4px solid #76b7b2;
+    }
+
+    .match-container *, .search-box * {
+        color: #e0e0e0 !important;
+    }
+
 
         .title-text, .subtitle-text {
             color: #ffffff;
